@@ -22,7 +22,7 @@ public class Person {
             boss.addEmployeePassive(this);
         }
         else{
-            System.out.println("I have boss");
+            System.out.println("I already belong to master "+this.boss.getName());
         }
     }
 
